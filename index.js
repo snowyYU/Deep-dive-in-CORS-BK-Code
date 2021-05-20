@@ -13,6 +13,7 @@ app.options('/greet', (req, res) => {
   res.send('Hello greet!')
 })
 app.get('/greet', (req, res) => {
+  console.log('triger get method')
   res.send('hey')
 })
 app.post('/greet', (req, res) => {
